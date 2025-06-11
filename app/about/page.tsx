@@ -9,20 +9,16 @@ const AboutPage: React.FC = () => {
       </h1>
       <div className="max-w-3xl bg-white shadow-xl rounded-lg p-10 mx-4">
         <p className="text-lg text-gray-700 leading-relaxed mb-6">
-          Hello! I'm [Your Name], a passionate web developer eager to build
-          innovative and efficient digital experiences. My journey in web
-          development started with a fascination for how websites come to life,
-          and I've been hooked ever since.
+          Hello! I'm a highly accomplished and versatile technical professional, distinguished by my <span className="font-semibold text-red-600">top 1% ranking on Hack The Box Academy</span> and <span className="font-semibold text-red-600">top 4% ranking on TryHackMe</span> globally. This expertise underpins my proactive approach to cybersecurity, covering both offensive and defensive strategies, vulnerability analysis, and secure system design.
         </p>
         <p className="text-lg text-gray-700 leading-relaxed mb-6">
-          I specialize in frontend technologies like <span className="font-semibold text-blue-600">React</span> and <span className="font-semibold text-blue-600">Next.js</span>,
-          crafting responsive and user-friendly interfaces. My projects often
-          incorporate <span className="font-semibold text-green-600">TypeScript</span> for robust code and <span className="font-semibold text-purple-600">Tailwind CSS</span> for rapid,
-          maintainable styling.
+          My core strengths lie in programming across <span className="font-semibold text-blue-600">Python</span>, <span className="font-semibold text-blue-600">C</span>, and <span className="font-semibold text-blue-600">Go</span>, enabling me to tackle complex software challenges efficiently. I'm also deeply proficient in <span className="font-semibold text-blue-600">Linux</span> and <span className="font-semibold text-blue-600">Bash scripting</span> for robust system operations and automation. Furthermore, I excel at developing <span className="font-semibold text-blue-600">ML</span> and <span className="font-semibold text-blue-600">AI</span> models using <span className="font-semibold text-blue-600">Jupyter Notebooks</span>, transforming data into intelligent solutions.
         </p>
         <p className="text-lg text-gray-700 leading-relaxed">
-          When I'm not coding, you can find me [Your hobbies/interests]. I'm always
-          eager to learn new technologies and contribute to exciting projects.
+         I leverage this diverse technical foundation to build secure, high-performing, and intelligent systems. My capabilities also extend to modern web development, utilizing Next.js, React, TypeScript and Tailwind CSS for frontend, alongside backend knowledge in Node.js, php, and SQL database management. Passionate about innovation and continuous learning, I'm driven to deliver impactful results and contribute to cutting-edge projects.
+        </p>
+        <p className="text-lg text-gray-700 leading-relaxed">
+
         </p>
       </div>
       <a
