@@ -1,6 +1,7 @@
 // app/page.tsx
 import type { NextPage } from 'next';
 import Head from 'next/head';
+import Link from 'next/link';
 
 // React Icons Imports
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
@@ -29,9 +30,9 @@ const HomePage: NextPage = () => {
         <header className="flex justify-between items-center py-8">
           <a href="#" className="text-2xl font-bold text-green-400">AndrewF.dev</a>
           <nav>
-            <a href="/about" className="mx-2 hover:text-green-400 transition-colors duration-300">About</a>
-            <a href="#projects" className="mx-2 hover:text-green-400 transition-colors duration-300">Projects</a>
-            <a href="/contact" className="mx-2 hover:text-green-400 transition-colors duration-300">Contact</a>
+            <Link href="/about" className="mx-2 hover:text-green-400 transition-colors duration-300">About</Link>
+            <Link href="#projects" className="mx-2 hover:text-green-400 transition-colors duration-300">Projects</Link>
+            <Link href="/contact" className="mx-2 hover:text-green-400 transition-colors duration-300">Contact</Link>
           </nav>
         </header>
 
