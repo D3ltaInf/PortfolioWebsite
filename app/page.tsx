@@ -35,7 +35,7 @@ const HomePage: NextPage = () => {
           </nav>
         </header>
 
-        {/* Skills Section --- UPDATED */}
+        {/* Skills Section --- */}
         <section id="skills" className="py-20">
           <h2 className="text-3xl font-bold text-center mb-12">My Arsenal</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
@@ -48,7 +48,7 @@ const HomePage: NextPage = () => {
               <h3 className="text-xl font-bold">Bash Scripting</h3>
             </div>
             
-            {/* --- USING YOUR CUSTOM NMAP ICON --- */}
+            {/* --- USING CUSTOM NMAP ICON --- */}
             <div className="flex flex-col items-center p-4 bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors duration-300">
               <NmapIcon className="w-16 h-16 mb-4 text-green-400" />
               <h3 className="text-xl font-bold">Nmap</h3>
@@ -119,8 +119,8 @@ const HomePage: NextPage = () => {
 
         {/* Contact Section */}
         <section id="contact" className="py-20 text-center">
-            <h2 className="text-3xl font-bold mb-4">Let's Connect</h2>
-            <p className="text-gray-400 mb-8 max-w-xl mx-auto">I'm currently open to new opportunities and collaborations. Feel free to reach out via email or connect with me on social media.</p>
+            <h2 className="text-3xl font-bold mb-4">Let&apos;s Connect</h2>
+            <p className="text-gray-400 mb-8 max-w-xl mx-auto"> I&apos;m currently open to new opportunities and collaborations. Feel free to reach out via email or connect with me on social media.</p>
             <a href="mailto:your-email@example.com" className="inline-block bg-green-500 text-gray-900 font-bold py-3 px-8 rounded-md hover:bg-green-600 transition-colors duration-300 text-lg">
               Say Hello
             </a>

@@ -98,7 +98,7 @@ const ContactPage: React.FC = () => {
 
           {status === 'success' && (
             <p className="mt-4 text-center text-green-600 font-semibold">
-              Message sent successfully! I'll get back to you soon.
+              Message sent successfully! I&apos;ll get back to you soon.
             </p>
           )}
           {status === 'error' && (
